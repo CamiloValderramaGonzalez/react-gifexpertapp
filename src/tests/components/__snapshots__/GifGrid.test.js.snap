@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente GifGrid Debe mostrar items 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="titulo"
+      url="http://url.com"
+    />
+    <GifGridItem
+      id="ABCD"
+      key="ABCD"
+      title="titulo2"
+      url="http://url.com"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en el componente GifGrid Debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  <p>
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
